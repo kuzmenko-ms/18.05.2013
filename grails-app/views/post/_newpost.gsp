@@ -1,17 +1,29 @@
 <div id="newPost">
 
     <input id="charLeft" name="charLeft" size="5" value="160" readonly="true"/>
+Раздел:
+<form action="file.php" method="get">
+<select name="linksNav" size="1">
+<option value="ссылка1" selected >Фрукты</option>
+<option value="ссылка2">Овощи</option>
+<option value="ссылка3">Мясо</option>
+<option value="ссылка4">Злаковые</option>
+<option value="ссылка5">Удобрения</option>
 
+</select>
+</form>
     <h4>
         Введите текст объявления:
     </h4>
+    
 
     <g:if test="${flash.message}">
         <div class="flash">
             ${flash.message}
         </div>
     </g:if>
-
+   
+ 
     <p>
        
 

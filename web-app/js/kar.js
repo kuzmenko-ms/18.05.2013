@@ -1,2 +1,5 @@
-    $('.carousel').carousel({
+
+    $(window).load(function() {
+        $('#slider').nivoSlider();
     });
+  

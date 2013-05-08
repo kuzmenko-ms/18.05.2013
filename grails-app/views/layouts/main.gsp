@@ -17,20 +17,20 @@
                    <script src="${resource(dir: 'js', file: 'superfish.js')}"></script>
                      <script src="${resource(dir: 'js', file: 'supesub.js')}"></script>
                      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-                     <script src="${resource(dir: 'js', file: 'autoadvance.js')}"></script>
+                     
                      <script src="${resource(dir: 'js', file: 'script.js')}"></script>
                      <script src="${resource(dir: 'js', file: 'kar.js')}"></script>
                 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-        
-            
-                
-
-  <g:layoutHead />
-  <g:javascript library="application" />
-  <g:javascript library="scriptaculous"/>
-  <img src="${resource(dir: 'images', file: '3g.png')}" width="417" height="151" align="middle" />
-  <div id="top-panel">
+     <TABLE BORDER=0  width="100%" cellpadding="0">
+    <td background="${resource(dir: 'images', file: '45.gif')}" height="160" align="center" cellpadding="0"/><table width="100%" border="0">
+        <tr>
+          <td VALIGN=bottom align="center">
+          <div id ="logo"><a href="${resource(dir:'/')}"><img src="${resource(dir: 'images', file: 'kontekstnaya_reklama.png')}"  title="Переход на главную" align="left" /></a></div>
+       <div id ="3"><a href="mailto:kumaks09@yandex.ru" rel="${resource(dir: 'images', file: 'phone-Green.png')}"> <img src="${resource(dir: 'images', file: 'phone-Green.png')}"  title="Если возникли вопросы,задай их нам." width="120" height="120" align="right" /></a>
+       <div id ="logo"><a href="${resource(dir:'/')}"><img src="${resource(dir: 'images', file: '3g.png')}"  title="Переход на главную" width="417" height="151" align="middle" /></a></div>
+       
+     <div id="top-panel">
     
 <div class="main">
             <div class="panel">
@@ -75,15 +75,22 @@
             <a class="close" href="#close"></a>   
         </div>
 </div>
+       </td>
+  </tr>
+</table>    
+       </table>
+
+  <g:layoutHead />
+  <g:javascript library="application" />
+  <g:javascript library="scriptaculous"/>
+  
+ 
 </head>
 
 <body>
   
   <div id="doc3" class="yui-t5">
    
-   <a href="${resource(dir:'/')}">
-    Главная страница
-   </a>
     
     <div id="bd"><!-- start body -->
       <g:layoutBody/>
@@ -93,6 +100,138 @@
        
     </div>
   </div>
-  <r:layoutResources/>		
+  <r:layoutResources/>
+<div id="ds"
+    <a href="#" onClick="scroll(0,0); return false" title="наверх"><img src="${resource(dir: 'images', file: 'top.png')}"/></a> 
+   </div>
+  
+  <table width="100%" border="0">
+    
+    <tr>
+      <td width="533" ><img src="${resource(dir: 'images', file: '1993.png')}"/></td>
+      <td width="465" height="200" background="${resource(dir: 'images', file: '1994.png')}"><div id = "kur">Службы доставки: <br>
+     <div id ="content">
+    
+      
+       <div id ="content">  <q></q></div>
+     
+    <div id ="section"> <p></p></div><br> <br>
+    <div id ="name"> <p></p></div>
+       <ul id="menu">
+    <li>
+      <ul id="menu">
+  Курьерская служба доставки City Express
+  </ul>
+       <ul id="menu">
+  Курьерская служба доставки City Express
+  </ul>
+       <ul id="menu">
+  Курьерская служба доставки City Express
+  </ul>
+       <ul id="menu">
+  Курьерская служба доставки City Express
+  </ul>
+       <ul id="menu">
+  Курьерская служба доставки City Express
+  </ul>
+       <ul id="menu">
+  Курьерская служба доставки City Express
+  </ul>
+      </div>
+      
+      
+       </div></td>
+      <td></td>
+    </tr>
+    
+  </table>   
+  
+  
+  
+  <div id ="table">
+  <TABLE BORDER=0 width="100%">
+
+    <td background="${resource(dir: 'images', file: '45.gif')}" height="180" align="left"/><table width="100%" border="0">
+        <tr>
+          <td align="center">
+          <font size="1" face="Verdana,sans-serif">
+          
+   <li >
+    <font face="Verdana, Geneva, sans-serif" size="2" color="#996699"> -Фрукты:</font>
+	<ul>Яблоки</ul>
+	<ul>Груши</ul>
+	<ul>Черешня</ul>
+	<ul>Абрикосы</ul>
+	<ul>Персики</ul>
+   </li>
+   
+   
+   </td>
+    
+    
+          <td align="center">
+<font size="1" face="Verdana,sans-serif">
+	<li>
+    	<font face="Verdana, Geneva, sans-serif" size="2" color="#996699"> -Овощи:</font>
+    	<ul>Огурцы</ul>
+		<ul>Помидоры</ul>
+		<ul>Кабачки</ul>
+		<ul>Лук</ul>
+		<ul>Укроп</ul>
+		<ul>Редис</ul>
+		<ul>Картофель</ul>
+    </li>
+    </td>
+    
+          <td align="center">
+          <font size="1" face="Verdana,sans-serif">
+   <li>
+         <font face="Verdana, Geneva, sans-serif" size="2"color="#996699"> -Злаковые:</font>
+		<ul>Пшеница</ul>
+		<ul>Рожь</ul>
+		<ul>Овёс</ul>
+		<ul>Рис</ul>
+		<ul>Кукуруза</ul>
+		<ul>Ячьмень</ul>
+    </li>
+</td>
+          
+          
+       <td align="center" >
+       <font size="1" face="Verdana,sans-serif">
+   	<li>   
+    
+  <font face="Verdana, Geneva, sans-serif" size="2" color="#996699">  -Мясо:</font>
+	<ul>Свинина</ul>
+	<ul>Говядина</ul>
+	<ul>Рыба</ul>
+	<ul>Кролик</ul>
+	<ul>Курица</ul>    
+    </li>
+       
+       </td>
+          
+          <td align="center">
+          <font size="1" face="Verdana,sans-serif">
+     <li>
+     
+   <font face="Verdana, Geneva, sans-serif" size="2" color="#996699">  -Молочные продукты</font>
+	<ul>Молоко</ul>
+	<ul>Сметана</ul>
+          
+     </li>
+          
+          </td> 
+        </tr>
+      </table>        
+    
+    <tr>
+      <td height="40" align="center" background="${resource(dir: 'images', file: '3.gif')}" />copyright &copy;
+      </tr>
+    
+    </td>
+  </tr>
+</table>
+  </div>
 </body>	
 </html>

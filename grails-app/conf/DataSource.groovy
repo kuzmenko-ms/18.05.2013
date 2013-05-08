@@ -14,19 +14,19 @@ hibernate {
 environments {
     development {
         dataSource {
-            dbCreate = "create-drop" // one of 'create', 'create-drop','update'
+            dbCreate = "update" // one of 'create', 'create-drop','update'
             url = "jdbc:mysql://localhost:3306/my?characterEncoding=utf8"
         }
     }
     test {
         dataSource {
-            dbCreate = "create-drop"
+            dbCreate = "update"
             url = "jdbc:mysql://localhost:3306/my"
         }
     }
     production {
         dataSource {
-            dbCreate = "create-drop"
+            dbCreate = "update"
             url = "jdbc:hsqldb:file:prodDb;shutdown=true"
         }
     }

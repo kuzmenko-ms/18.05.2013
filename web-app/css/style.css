@@ -43,7 +43,7 @@ right:0;
 li{ 
    
     display: inline;
-    margin-right: 5px;
+    margin-right: 1px;
     }
 
 #f
@@ -271,3 +271,19 @@ a:hover{
 	clear:both;
 }
 
+#3{
+    position: fixed;
+    
+    
+}
+
+#post_content
+{
+ text-align: center;
+}
+
+#post_userId{
+    text-align: left;
+}
+
+th{vertical-align: bottom;}

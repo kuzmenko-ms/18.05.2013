@@ -6,9 +6,22 @@
 <div class="postEntry">
     <div class="postText">
 
-        <a href="<g:createLink controller='user'
+    <table width="100%" border="0">
+        
+          <td VALIGN=bottom align="center">
+          <div class="circle" style="background-image: 
+       url('${resource(dir: 'images', file: 'выпв.jpg')}')" title=" ${post.content}">
+        
+            
+        </div>
+            <div id ="post_userId">Продавец    <a href="<g:createLink controller='user'
            action='profile' id='${post.user.userId}'/>">${post.user.userId}</a>
-        ${post.content}
+            <br><br><br>
+       <div id ="post_content">${post.content}</div>
+    </td>
+  </tr>
+</table>    
+ 
 
     </div>
     <div class="postDate">

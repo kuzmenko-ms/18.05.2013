@@ -1,0 +1,150 @@
+
+/* header */
+
+header2 {
+	
+	
+}
+
+nav2 ul {
+	list-style: none;
+	margin: 0;
+    padding: 4px;
+    display: inline;
+}
+
+
+.thumbnail2 {
+right:0;
+	width: 100px;
+	height: 100px;
+	opacity: 0.4;
+	-o-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.thumbnail2:hover {
+	opacity: 1;
+}
+
+
+#image2  img2 {
+	
+	margin-top: 0px;
+	height: 100%;
+	border: 1px solid  #96C;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+}
+li{ 
+    padding: 4px;
+    display: inline;
+    margin-right: 5px;
+    }
+
+#f
+{
+	text-align:right;
+
+}
+#g
+{
+	text-align:left;
+
+}
+
+#top-panel2{
+	background:#ffffff;
+	border-bottom:3px solid #fffffff;
+	padding: 2px;
+	text-align:right;
+}
+#sub-panel2{
+	text-align:center;
+}
+#sub-panel2 a{
+	width:110px;
+	float:right;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	background:url(img/sub-left.png) bottom left no-repeat #996699;}
+.circle2 {
+  float:left;
+  display: block;
+  width: 110px;
+  height: 110px;
+  margin: 2em auto;
+  margin-right: 1em;
+  margin-left: 1.5em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+}
+#content2
+{
+	margin: 0 auto;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-variant:normal;
+		
+}
+
+#content2 ul
+{
+	
+	font-size:10px;
+	
+	font-family:Arial, sans-serif; font-size:12px;
+	
+	font-variant:normal;
+	color:#936;
+		
+}
+
+#ds
+{
+	position:fixed;
+	right: 10px; /* Расстояние от правого края окна браузера */
+    top: 91%;
+	border:0;
+}
+
+#kur
+{
+	position: relative;
+	margin-bottom:40%;
+	right:300px;	
+	left:50px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	
+}
+#section
+{
+   font-family: Verdana, Geneva, sans-serif; 
+   font-size:10px;
+   color: firebrick;
+   
+}
+#name
+{
+    position: relative;
+   font-family: Verdana, Geneva, sans-serif; 
+   font-size:10px;
+   left:200px;
+}
+#content
+{
+    position: relative;
+   font-family: Verdana, Geneva, sans-serif; 
+   font-size:16px;
+   
+}
+
