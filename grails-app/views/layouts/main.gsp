@@ -1,44 +1,44 @@
 <html>
 <head>
   <title>Пищеblog &raquo; <g:layoutTitle default="Welcome" /></title>
-  <link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'favicon.ico')}" type="image/x-icon" />
+  <g:javascript library="jquery"/>
+  <link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'fruityloops_8870.ico')}" type="image/x-icon" />
   <link rel="stylesheet" href="${createLinkTo(dir: 'css', file: 'reset-fonts-grids.css')}"/>
   <link rel="stylesheet" href="<g:createLinkTo dir='css' file='hubbub.css'/>"/>
-   <script src="http://code.jquery.com/jquery.js"></script>
   <link rel="stylesheet" href="${resource(dir: 'css', file: 'style.css')}" type="text/css">
   <link rel="stylesheet" href="${resource(dir: 'css', file: 'superfish.css')}" type="text/css">
- 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-                <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
-                <script src="${resource(dir: 'js', file: 'gallery.js')}"></script>
-                          <script src="${resource(dir: 'js', file: 'bootstrap.js')}"></script>
-                 <script src="${resource(dir: 'js', file: 'jquery-1.2.6.min.js')}"></script>
-                   <script src="${resource(dir: 'js', file: 'hoverIntent.js')}"></script>
-                   <script src="${resource(dir: 'js', file: 'superfish.js')}"></script>
-                     <script src="${resource(dir: 'js', file: 'supesub.js')}"></script>
-                     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-                     
-                     <script src="${resource(dir: 'js', file: 'script.js')}"></script>
-                     <script src="${resource(dir: 'js', file: 'kar.js')}"></script>
-                <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+             
+</head>
 
+
+  
      <TABLE BORDER=0  width="100%" cellpadding="0">
-    <td background="${resource(dir: 'images', file: '45.gif')}" height="160" align="center" cellpadding="0"/><table width="100%" border="0">
-        <tr>
-          <td VALIGN=bottom align="center">
-          <div id ="logo"><a href="${resource(dir:'/')}"><img src="${resource(dir: 'images', file: 'kontekstnaya_reklama.png')}"  title="Переход на главную" align="left" /></a></div>
-       <div id ="3"><a href="mailto:kumaks09@yandex.ru" rel="${resource(dir: 'images', file: 'phone-Green.png')}"> <img src="${resource(dir: 'images', file: 'phone-Green.png')}"  title="Если возникли вопросы,задай их нам." width="120" height="120" align="right" /></a>
-       <div id ="logo"><a href="${resource(dir:'/')}"><img src="${resource(dir: 'images', file: '3g.png')}"  title="Переход на главную" width="417" height="151" align="middle" /></a></div>
-       
-     <div id="top-panel">
-    
-<div class="main">
+      
+       <td background="${resource(dir: 'images', file: '45.gif')}" height="160" align="center" cellpadding="0"/> </div>
+       <table width="100%" border="0">
+           <tr>
+          <td VALIGN=bottom  align="middle">
+            <div class="main">
             <div class="panel">
                 <div id="link">
                 <a  href="#join_form" id="join_pop">Регистрация</a></div>
-            </div>
+           
  
         </div>
+           <div id ="logo">
+       <div id ="3"><a href="mailto:kumaks09@yandex.ru" rel="${resource(dir: 'images', file: 'phone-Green.png')}"> <img src="${resource(dir: 'images', file: 'phone-Green.png')}"  title="Если возникли вопросы,задай их нам." width="120" height="120" align="right" /></a>
+     <a href="${resource(dir:'/')}"><img src="${resource(dir: 'images', file: '3g.png')}"  title="Переход на главную" width="417" height="151" align="middle" /></a></div>
+       </div>
+       <tr>
+         
+         <td background="${resource(dir: 'images', file: '90.jpg')}"  align="middle">
+           
+       <img src="${resource(dir: 'images', file: 'banner.png')}"  title="Ням-ням"  align="left" />
+        <div id="top-panel">
+         </td>
+       </tr>
+       
+    
  
 
       
@@ -109,7 +109,7 @@
     
     <tr>
       <td width="533" ><img src="${resource(dir: 'images', file: '1993.png')}"/></td>
-      <td width="465" height="200" background="${resource(dir: 'images', file: '1994.png')}"><div id = "kur">Службы доставки: <br>
+      <td width="465" height="" background="${resource(dir: 'images', file: '1994.png')}"><div id = "kur">Службы доставки: <br>
      <div id ="content">
     
       
@@ -233,5 +233,7 @@
   </tr>
 </table>
   </div>
+  
+  
 </body>	
 </html>

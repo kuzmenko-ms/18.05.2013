@@ -287,3 +287,14 @@ a:hover{
 }
 
 th{vertical-align: bottom;}
+
+#45{
+   
+    position:fixed;
+z-index:2;
+}
+#logo{
+    position:fixed;
+z-index:1;
+right: 0;
+}

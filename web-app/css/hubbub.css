@@ -21,6 +21,10 @@ h1 {
 }
 
 #sidebar {
+    
+	    position:fixed;
+z-index:2;
+border-radius:20px;
 
     margin-top: 3em;
     background-color: #d5d5d5;
