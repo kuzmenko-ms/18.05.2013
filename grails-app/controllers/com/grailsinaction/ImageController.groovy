@@ -6,9 +6,6 @@ String userId
 }
 
 class ImageController {
-
-  
-
     def upload = { PhotoUploadCommand puc ->
         println "Starting upload"
         def user = User.findByUserId(puc.userId)
@@ -22,13 +19,11 @@ class ImageController {
 }
     
     def rawUpload = {
-
         // a Spring MultipartHttpServletRequest
         def mhsr = request.getFile('photo')
         if(!mhsr?.empty && mhrs.size < 1024*200) { // 200kb
             mhsr.transferTo(
                 new File("“/hubbub/images/${request.userId}/mugshot.gif”") )
-
         }
     }
 
@@ -36,7 +31,6 @@ class ImageController {
        [ userList : User.list() ]
     }
 
-   
     def renderImage = {
         def user = User.findByUserId(params.id)
         if (user?.profile?.photo) {
@@ -45,10 +39,5 @@ class ImageController {
         } else {
             response.sendError(404)
         }
-
     }
-   
-   
-
-
 }

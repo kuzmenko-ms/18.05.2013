@@ -1,17 +1,14 @@
 <html>
 <head>
   <title>Пищеblog &raquo; <g:layoutTitle default="Welcome" /></title>
-  <g:javascript library="jquery"/>
+
   <link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'fruityloops_8870.ico')}" type="image/x-icon" />
   <link rel="stylesheet" href="${createLinkTo(dir: 'css', file: 'reset-fonts-grids.css')}"/>
   <link rel="stylesheet" href="<g:createLinkTo dir='css' file='hubbub.css'/>"/>
   <link rel="stylesheet" href="${resource(dir: 'css', file: 'style.css')}" type="text/css">
   <link rel="stylesheet" href="${resource(dir: 'css', file: 'superfish.css')}" type="text/css">
              
-</head>
-
-
-  
+</head>  
      <TABLE BORDER=0  width="100%" cellpadding="0">
       
        <td background="${resource(dir: 'images', file: '45.gif')}" height="160" align="center" cellpadding="0"/> </div>
@@ -21,19 +18,18 @@
             <div class="main">
             <div class="panel">
                 <div id="link">
-                <a  href="#join_form" id="join_pop">Регистрация</a></div>
-           
+        
  
         </div>
            <div id ="logo">
        <div id ="3"><a href="mailto:kumaks09@yandex.ru" rel="${resource(dir: 'images', file: 'phone-Green.png')}"> <img src="${resource(dir: 'images', file: 'phone-Green.png')}"  title="Если возникли вопросы,задай их нам." width="120" height="120" align="right" /></a>
-     <a href="${resource(dir:'/')}"><img src="${resource(dir: 'images', file: '3g.png')}"  title="Переход на главную" width="417" height="151" align="middle" /></a></div>
+     <a href="${resource(dir:'/')}"><img src="${resource(dir: 'images', file: '3g.png')} "title="Переход на главную" width="417" height="151" align="middle" /></a></div>
        </div>
        <tr>
          
          <td background="${resource(dir: 'images', file: '90.jpg')}"  align="middle">
            
-       <img src="${resource(dir: 'images', file: 'banner.png')}"  title="Ням-ням"  align="left" />
+           <a href="${resource(dir:'/')}">   <img src="${resource(dir: 'images', file: 'banner.png')}"  title="Ням-ням"  align="left" /></a>
         <div id="top-panel">
          </td>
        </tr>
@@ -42,7 +38,7 @@
  
 
       
-        <!-- раскрывающаяся форма #2 -->
+       
         <a href="#x" class="overlay" id="join_form"></a>
         <div class="popup">
             <h2>Регистрация</h2>
@@ -60,7 +56,7 @@
                 <dd><g:textField name="userId" value="${userDetails?.userId}"/></dd>
                 <dt>Пароль:</dt>
                 <dd><g:passwordField name="password" value="${userDetails?.password}"/></dd>
-                <dt>Повторный ввод пароля:</dt>
+                <dt>ввод пароля:</dt>
                 <dd><g:passwordField name="passwordRepeat" value="${userDetails?.passwordRepeat}"/></dd>
                 <dt>Настоящее имя:</dt>
                 <dd><g:textField name="fullName" value="${userDetails?.fullName}"/></dd>
@@ -87,7 +83,7 @@
  
 </head>
 
-<body>
+
   
   <div id="doc3" class="yui-t5">
    
@@ -101,7 +97,7 @@
     </div>
   </div>
   <r:layoutResources/>
-<div id="ds"
+  <div id="ds">
     <a href="#" onClick="scroll(0,0); return false" title="наверх"><img src="${resource(dir: 'images', file: 'top.png')}"/></a> 
    </div>
   
@@ -235,5 +231,5 @@
   </div>
   
   
-</body>	
+
 </html>

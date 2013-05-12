@@ -4,11 +4,7 @@
     </head>
     <body>
 
-	<!--	
-        <h3>
-            Global Timeline
-        </h3>
-	-->
+
 	
         <g:if test="${session.user}">
             <g:render template="newpost" model="[user: session.user, timelineType: 'global']"/>

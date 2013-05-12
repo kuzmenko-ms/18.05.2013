@@ -1,4 +1,4 @@
-<<g:applyLayout name="main">
+<g:applyLayout name="main">
 <body>
   <div id="yui-main">
     <div class="yui-b">

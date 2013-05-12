@@ -60,8 +60,7 @@ class PostService implements RemotePostService {
                 throw new PostException(message: "Invalid or empty post", post: post)
             }
 
-            // If the post content contains "@<userId>", then we create
-            // a reply.
+      
             def m = content =~ /@(\w+)/
             if (m) {
                 def targetUser = User.findByUserId(m[0][1])
