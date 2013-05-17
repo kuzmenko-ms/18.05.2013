@@ -100,8 +100,7 @@
      
     <div id ="section"> <p></p></div><br> <br>
     <div id ="name"> <p></p></div>
-    <div class="box">
-<!--CONTENT-->
+
 
        <ul id="menu">
     <li>
@@ -123,7 +122,7 @@
        <ul id="menu">
   Курьерская служба доставки City Express
   </ul>
-      </div>
+      
       
       
        </div></td></div>
