@@ -57,7 +57,7 @@ class PostService implements RemotePostService {
             user.addToPosts(post)
 
             if (!user.save()) {
-                throw new PostException(message: "Invalid or empty post", post: post)
+                throw new PostException(message: "Объявлние пустое :(", post: post)
             }
 
       

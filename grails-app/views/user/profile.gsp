@@ -18,8 +18,8 @@
             <g:if test="${profile.photo}">
                 <img src="<g:createLink controller='image' action='renderImage' id='${userId}'/>"/>
             </g:if>
-            <p>Profile for <strong>${profile.fullName}</strong></p>
-            <p>Bio: ${profile.bio}</p>
+            <p>Профиль пользователя: <strong>${profile.fullName}</strong></p>
+            <div id ="prof" ><p>Подробная информация: ${profile.bio}</p></div>
         </div>
       
 

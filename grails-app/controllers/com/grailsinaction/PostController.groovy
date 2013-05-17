@@ -114,8 +114,5 @@ def index = {
         }
 
     }
-    
-    def category ={
-        
-    }
+  
 }

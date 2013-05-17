@@ -33,12 +33,6 @@
         <div id="top-panel">
          </td>
        </tr>
-       
-    
- 
-
-      
-       
         <a href="#x" class="overlay" id="join_form"></a>
         <div class="popup">
             <h2>Регистрация</h2>
@@ -79,15 +73,8 @@
   <g:layoutHead />
   <g:javascript library="application" />
   <g:javascript library="scriptaculous"/>
-  
- 
 </head>
-
-
-  
   <div id="doc3" class="yui-t5">
-   
-    
     <div id="bd"><!-- start body -->
       <g:layoutBody/>
     </div>  <!-- end body -->
@@ -105,7 +92,7 @@
     
     <tr>
       <td width="533" ><img src="${resource(dir: 'images', file: '1993.png')}"/></td>
-      <td width="465" height="" background="${resource(dir: 'images', file: '1994.png')}"><div id = "kur">Службы доставки: <br>
+      <td><div id = "kur">Службы доставки: <br>
      <div id ="content">
     
       
@@ -113,22 +100,25 @@
      
     <div id ="section"> <p></p></div><br> <br>
     <div id ="name"> <p></p></div>
+    <div class="box">
+<!--CONTENT-->
+
        <ul id="menu">
     <li>
       <ul id="menu">
   Курьерская служба доставки City Express
   </ul>
        <ul id="menu">
-  Курьерская служба доставки City Express
+  ООО Балтийская Служба Доставки Контакты
   </ul>
        <ul id="menu">
-  Курьерская служба доставки City Express
+ "СДЭК" - служба доставки
   </ul>
        <ul id="menu">
-  Курьерская служба доставки City Express
+ "СТАРПОСТ"
   </ul>
        <ul id="menu">
-  Курьерская служба доставки City Express
+  Воронеж. Служба Перевозки Грузов «ЖелДорЭкспедиция»
   </ul>
        <ul id="menu">
   Курьерская служба доставки City Express
@@ -136,7 +126,7 @@
       </div>
       
       
-       </div></td>
+       </div></td></div>
       <td></td>
     </tr>
     

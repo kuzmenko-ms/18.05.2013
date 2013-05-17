@@ -145,6 +145,12 @@ TABLE {
    color: firebrick;
    
 }
+#prof
+{
+   font-family: Verdana, Geneva, sans-serif; 
+   font-size:18px;
+
+}
 #name
 {
     position: relative;
@@ -296,4 +302,9 @@ z-index:2;
     position:fixed;
 z-index:1;
 right: 0;
+}
+.box {
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
 }
